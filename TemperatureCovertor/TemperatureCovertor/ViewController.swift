@@ -53,6 +53,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     }
     
     @IBAction func okButtonOnClick(_ sender: UIButton) {
+        resultLabel.text = ""
         typeLabel.text = selectedType
         popUpView.isHidden = true
     }
